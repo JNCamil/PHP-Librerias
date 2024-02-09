@@ -2,7 +2,7 @@
 //Tendremos que añadir el autoload que está en vendor, para tener disponibles los objetos y clases que hay en vendor
 require "../vendor/autoload.php";
 
-//Para utilizar la librería, cargamos el namespace. Cada librería está paquetizada, cada una tiene su namespace
+//Para utilizar la librería, cargamos el namespace. Cada librería está paquetizada, cada una tiene su namespace. *Para cargarla ver documentación
 
 
 $html2pdf = new \Mpdf\Mpdf(); //Nos generará un pdf en base a un html y un css que pongamos 
