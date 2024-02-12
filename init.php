@@ -11,5 +11,5 @@ En composer.json es un objeto json donde trendremos el objeto con la dependencia
     }
 }
 */
-phpinfo();
+
 ?>
