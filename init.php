@@ -7,7 +7,7 @@ En composer.json es un objeto json donde trendremos el objeto con la dependencia
 {
     "require": {
         "spipu/html2pdf": "^4.6",
-        "dependencia o librería o paquete": "version" (Para añadir más)  //Si instalo otras librerías se añaden automáticamente
+        "dependencia o librería o paquete": "version" --> Para añadir más  //Si instalo otras librerías se añaden automáticamente
     }
 }
 */
