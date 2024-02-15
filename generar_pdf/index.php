@@ -15,7 +15,7 @@ $html2pdf = new \Mpdf\Mpdf(); //Nos generará un pdf en base a un html y un css 
 // Para importarlo desde otro lado
 // Recoger la vista para imprimir:
 ob_start();       //Recoge el html del archivo siguiente
-require "pdf_para_generar.php";
+require "pdf_para_generar.php";  //Archivo con el html
 $html = ob_get_clean();  //Aquí lo guardo
 
 
