@@ -19,7 +19,7 @@ require "pdf_para_generar.php";  //Archivo con el html
 $html = ob_get_clean();  //Aquí lo guardo.
 
 
-//Podemos ver la documentación para ver sus métodos 
+//Podemos ver la documentación para ver sus métodos.
 
 //Escribir en el pdf:
 $html2pdf -> writeHTML ($html);
