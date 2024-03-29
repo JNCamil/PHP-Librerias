@@ -16,7 +16,7 @@ $html2pdf = new \Mpdf\Mpdf(); //Nos generará un pdf en base a un html y un css 
 // Recoger la vista para imprimir:
 ob_start();       //Recoge el html del archivo siguiente
 require "pdf_para_generar.php";  //Archivo con el html
-$html = ob_get_clean();  //Aquí lo guardo.
+$html = ob_get_clean();  //Esto es un cierre de ob_start().
 
 
 //Podemos ver la documentación para ver sus métodos.
