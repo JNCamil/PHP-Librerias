@@ -13,7 +13,7 @@ $frutas= array(
 );
 
 
-//Es una clase estática  - FIRE BUG (Es como un inspector de elemento que hay en los navegadores)
+//Es una clase estática  - FIRE BUG (Es como un inspector de elemento que hay en los navegadores, un console.log de JS)
 \FB::log($frutas);//Me mostrará por consola lo que yo quiera
 
 
